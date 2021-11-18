@@ -27,7 +27,7 @@ namespace Employee
                         empHrs = 8;
                         break;
                     case IS_FULL_TIME:
-                        empHrs = 16[;
+                        empHrs = 16;
                         break;
                     default:
                         empHrs = 0;
