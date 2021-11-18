@@ -18,10 +18,10 @@ namespace Employee
             switch (empCheck)
             {
                 case IS_PART_TIME:
-                    empHrs = 4;
+                    empHrs = 8;
                     break;
                 case IS_FULL_TIME:
-                    empHrs = 8;
+                    empHrs = 16;
                     break;
                 default:
                     empHrs = 0;
