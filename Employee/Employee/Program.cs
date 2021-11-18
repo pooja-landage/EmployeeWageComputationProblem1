@@ -16,11 +16,11 @@ namespace Employee
             int empCheck = random.Next(0, 3);
             if (empCheck == IS_PART_TIME)
             {
-                empHrs = 4;
+                empHrs = 8;
             }
             else if(empCheck == IS_FULL_TIME)
             {
-                empHrs = 8;  
+                empHrs = 16 
             }
             else
             {
